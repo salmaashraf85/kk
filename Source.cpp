@@ -2,6 +2,7 @@
 #include <fstream>
 using namespace std;
 int main() {
+	cout << "lamloma" << endl;
 	fstream my_file;
 	my_file.open("my_file.txt", ios::out);
 	if (!my_file) {
